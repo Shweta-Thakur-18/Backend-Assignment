@@ -20,3 +20,15 @@ Request body:
   "question": "What is Node.js?",
   "answer": "Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine."
 }
+
+
+## Get FAQs with Language Support
+GET to /api/faqs?lang=hi for Hindi translation.
+The response will look like:
+
+[
+  {
+    "question": "Node.js क्या है?",
+    "answer": "Node.js एक जावास्क्रिप्ट रनटाइम है जो क्रोम के V8 जावास्क्रिप्ट इंजन पर आधारित है।"
+  }
+]
